@@ -4,6 +4,8 @@
 
 This exporter logs into your WirelessTag.net account, fetches the latest data from all registered tags, and exposes it in a Prometheus-friendly format.
 
+Currently supports only the Temp/Humidity sensors because that's all what I have.
+
 ## Features
 
 * **Standalone**: No external dependencies besides Go to compile.
